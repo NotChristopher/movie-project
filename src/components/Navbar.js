@@ -43,16 +43,6 @@ function Navbar({searchText, setSearchText}) {
                 About
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link disabled"
-                to="goto"
-                tabIndex="-1"
-                aria-disabled="true"
-              >
-                Coming Soon
-              </Link>
-            </li>
           </ul>
           <form className="d-flex" onSubmit = {submitedSearch}>
             <input
